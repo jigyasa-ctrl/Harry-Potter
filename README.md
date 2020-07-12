@@ -1,2 +1,2 @@
 # Harry-Potter
-Harry otter fan page in React using Harry potter API 
+Harry potter fan page in React using Harry potter API 
