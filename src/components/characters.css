@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.title {
+    text-align: center;
+    color: white;
+}
+
+.character-link {
+    text-decoration: none;
+    color: #A68549;
+}
+
+.char-names {
+    margin: 0 50px;
+    padding: 5px;
+}
+
+
+.chars-list {
+    margin:10px;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    color: #A68549;
+    font-size: 1.5em;
+    font-family: roboto;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(109, 53, 53);
+    overflow-x: hidden;
+}.header{
+    display:flex;
+   
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(92, 31, 31);
+    padding-top:20px;
+}
+.header img:nth-child(2){
+    height:200px;
+}
+.header img:nth-child(1){
+    padding-right:150px;
+    top:0%;
+    animation: fly 3s linear infinite;
+    position: relative;
+}
+@keyframes fly{
+    from{
+       left:-600px; top:0px;
+        -webkit-transform : rotateX(0deg) translateZ(140px) scale3d(1, 1, 1);
+        -ms-transform     : rotateX(0deg) translateZ(140px) scale3d(1, 1, 1);
+        transform         : rotateY(0deg) translateZ(250px) scale3d(1,1,1);
+
+    }
+    
+    to{
+        left: 1200px;top:0px;
+        -webkit-transform : rotateX(360deg) translateZ(250px) scale3d(1, 1, 1);
+        -ms-transform     : rotateX(360deg) translateZ(250px) scale3d(1, 1, 1);
+        transform         : rotateY(500deg) translateZ(250px) scale3d(1.5,1.5,1.5);
+    
+    }
+   
+}

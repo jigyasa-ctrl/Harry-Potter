@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+body {
+  margin: 0;
+  font-family: roboto, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.firstpage {
+  position: relative;
+  padding:10px;
+  margin-top:50px;
+  left:25%;
+  font-family: 'Marck Script', cursive, 'Sacramento';
+  font-size: 2em;
+  width:50%;
+  text-align: center;
+  color:white;
+
+}
+@media screen and (max-width:700px){
+  .firstpage{
+    font-size:1em;
+    width:70%;
+    left:5%;
+  }
+  .image{
+    height:300px;
+  }
+}
+.firstpage button{
+  background-color:rgb(92, 31, 31);
+  color:white;
+  border-style: none;
+  margin-top:10px;
+  height:60px;
+  padding:10px;
+  cursor:pointer;
+  padding-bottom:5px;
+  font-size:1em;
+  
+}
+
+/*.firstpage div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/

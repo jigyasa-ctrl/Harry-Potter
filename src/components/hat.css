@@ -1,0 +1,13 @@
+.hat{
+    text-align: center;
+    color:#A68549;
+    margin:100px;
+}
+.hat h1{
+    font-family: 'Marck Script', cursive, 'Sacramento';
+    font-size:5em;
+    color:white;
+}
+.hat p{
+    font-size: 1.5em;
+}

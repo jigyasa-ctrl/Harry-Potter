@@ -1,0 +1,14 @@
+.footer{
+    color:white;
+    font-family: roboto;
+    text-align: center;
+    margin-bottom:20px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(92, 31, 31);
+    height:30px;
+}

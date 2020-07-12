@@ -1,0 +1,58 @@
+.image-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image{
+  
+  text-align: center;
+  height:400px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:15px;
+}
+@media screen and (max-width:700px){
+  
+  .image{
+    height:200px;
+  }
+  .overlay{
+    font-size: 1em;
+  }
+}
+.image:hover{
+  
+  position: relative;
+  animation: move 3s ease-in infinite;
+}
+
+.overlay-container{
+  position: relative;
+}
+.overlay{
+  position:absolute;
+  color:white;
+  padding:20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  font-size:5em;
+  background-color:black;
+  font-family:'Miss Fajardose', cursive;
+
+}
+
+/*
+@keyframes move{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg)
+  }
+}*/

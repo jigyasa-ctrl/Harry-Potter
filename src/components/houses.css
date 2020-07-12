@@ -1,0 +1,20 @@
+.houses-link {
+    text-decoration: none;
+    color: #A68549;
+}
+
+.house-list {
+    height: calc(80% - 140px);
+}
+
+.houses-names {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #A68549;
+    margin: 0 25px;
+    padding: 5px;
+    font-size:1.5em;
+    font-weight: bold;
+    text-align: center;
+}
